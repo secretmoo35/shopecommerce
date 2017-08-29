@@ -1,0 +1,53 @@
+{
+    "items": [{
+        "docno": "doc01",
+        "product": {
+            "name": "Mobile",
+            "image": "./assets/images/mobile.jpg",
+            "unitprice": 10000
+        },
+        "address": {
+            "firstname": "สรายุทธ",
+            "lastname": "กังสรานุวัตถ์",
+            "address": "123/45 หมู่ 1 คาซ่าซิตี้",
+            "district": "ลำลูกกา",
+            "subdistrict": "ลำลูกกา",
+            "province": "ปทุมธานี",
+            "postcode": "12150",
+            "country": "ไทย"
+        },
+        "shipping": {
+            "name": "เก็บเงินปลายทาง",
+            "detail": "เก็บเงินปลายทางกับคนส่งของที่หน้าบ้าน",
+            "days": "3",
+            "unitprice": 100
+        },
+        "created": "Mon Aug 28 2017 11:23:03 GMT+0700 (SE Asia Standard Time)",
+        "qty": 1,
+        "amount": 10000
+    }, {
+        "docno": "doc02",
+        "product": {
+            "name": "Mobile2",
+            "image": "./assets/images/mobile2.jpg",
+            "unitprice": 5900
+        },
+        "address": {
+            "address": "123/45 หมู่ 1 คาซ่าซิตี้",
+            "district": "ลำลูกกา",
+            "subdistrict": "ลำลูกกา",
+            "province": "ปทุมธานี",
+            "postcode": "12150",
+            "country": "ไทย"
+        },
+        "shipping": {
+            "name": "ส่งธรรมดา",
+            "detail": "ไปรยษณีย์ไทย",
+            "days": "5",
+            "unitprice": 20
+        },
+        "created": "Mon Aug 28 2017 11:23:03 GMT+0700 (SE Asia Standard Time)",
+        "qty": 2,
+        "amount": 11800
+    }]
+}

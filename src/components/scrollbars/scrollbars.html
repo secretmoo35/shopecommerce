@@ -1,0 +1,17 @@
+<!-- Generated template for the ScrollbarsComponent component -->
+<div class="scrollbars">
+  <ion-toolbar no-border class="scrollable-segments">
+    <ion-segment [(ngModel)]="tabs" id="scrollable">
+      <ion-segment-button *ngFor="let item of items; let i = index;" (click)="selectTab(i)" value="{{i}}">
+        {{item.banner_title}}
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+  <ion-slides #pageSlider *ngIf="items" (ionSlideWillChange)="changeWillSlide($event)">
+    <ion-slide *ngFor="let page of getPage(items.length); let p = index;">
+      <div (touchstart)="touchstart($event)" (touchend)="touchend($event)">
+        <list-scoll-x [populars]="items[page].popularproducts" (selectedItem)="selectedItem($event)"></list-scoll-x>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</div>

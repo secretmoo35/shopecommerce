@@ -1,0 +1,34 @@
+order-list-view {
+    .list-mini {
+        @include layout-list-styles($theme-color-2, $white-d);
+        ion-list {
+            .list-item {
+                .content-row {
+                    .item-title {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    &.one-line {
+                        @include align-items(center);
+                        .item-description {
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .created {
+        position: absolute;
+        top: -35px;
+        right: 1px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 70%;
+        color:#939393;
+    }
+}

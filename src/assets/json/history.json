@@ -1,0 +1,28 @@
+{
+    "receive": [{
+        "docno": "docno01",
+        "product": {
+            "name": "Mobile",
+            "image": "./assets/images/mobile.jpg",
+            "unitprice": 10000
+        },
+        "qty": 1,
+        "amount": 10000,
+        "status": "receive",
+        "date": "Mon Aug 28 2017 11:23:03 GMT+0700 (SE Asia Standard Time)"
+    }],
+    "unpaid": [{
+        "docno": "docno02",
+        "product": {
+            "name": "Mobile2",
+            "image": "./assets/images/mobile2.jpg",
+            "unitprice": 5900
+        },
+        "qty": 2,
+        "amount": 11800,
+        "status": "unpaid",
+        "date": "Mon Aug 28 2017 11:23:03 GMT+0700 (SE Asia Standard Time)"
+    }],
+    "receiveamount": 10000,
+    "unpaidamount": 11800
+}

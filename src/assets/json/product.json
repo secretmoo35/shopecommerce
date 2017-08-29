@@ -1,0 +1,13 @@
+{
+    "items": [{
+            "name": "Mobile",
+            "image": "./assets/images/mobile.jpg",
+            "unitprice": 10000
+        },
+        {
+            "name": "Mobile2",
+            "image": "./assets/images/mobile2.jpg",
+            "unitprice": 5900
+        }
+    ]
+}

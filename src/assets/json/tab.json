@@ -1,0 +1,124 @@
+{
+    "items": [
+        {
+            "name": "Nike",
+            "products": [
+                {
+                    "name": "Nike Lunar Skyelux",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/855808_001_A_PREM/lunar-skyelux-mens-running-shoe.jpg",
+                    "unitunitprice": 2500
+                },
+                {
+                    "name": "PG1 Men's Basketball Shoe",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/878627_008_G_PREM/pg1-basketball-shoe.jpg",
+                    "unitunitprice": 1999
+                },
+                {
+                    "name": "Nike Men (MIDNIGHT NAVY/WHITE)",
+                    "image": "http://th-live-03.slatic.net/p/7/nike-men-gts16-txt-840300410-midnightnavywhite-1497868991-64141851-afa234657f2df5d5dd496f4af56405d2-catalog_233.jpg",
+                    "unitunitprice": 2399
+                },
+                {
+                    "name": "Women's Shoes, Sneakers",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/880842_500_A_PREM/free-rn-commuter-2017-womens-running-shoe.jpg",
+                    "unitunitprice": 4500
+                }
+            ]
+        },{
+            "name": "Sport",
+            "products": [
+                {
+                    "name": "Nike Lunar Skyelux",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/855808_001_A_PREM/lunar-skyelux-mens-running-shoe.jpg",
+                    "unitunitprice": 2500
+                },
+                {
+                    "name": "PG1 Men's Basketball Shoe",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/878627_008_G_PREM/pg1-basketball-shoe.jpg",
+                    "unitunitprice": 1999
+                },
+                {
+                    "name": "Women's Shoes, Sneakers",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/880842_500_A_PREM/free-rn-commuter-2017-womens-running-shoe.jpg",
+                    "unitunitprice": 4500
+                }
+            ]
+        },{
+            "name": "Shoes",
+            "products": [
+                {
+                    "name": "PG1 Men's Basketball Shoe",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/878627_008_G_PREM/pg1-basketball-shoe.jpg",
+                    "unitunitprice": 1999
+                },
+                {
+                    "name": "Nike Men (MIDNIGHT NAVY/WHITE)",
+                    "image": "http://th-live-03.slatic.net/p/7/nike-men-gts16-txt-840300410-midnightnavywhite-1497868991-64141851-afa234657f2df5d5dd496f4af56405d2-catalog_233.jpg",
+                    "unitunitprice": 2399
+                },
+                {
+                    "name": "Women's Shoes, Sneakers",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/880842_500_A_PREM/free-rn-commuter-2017-womens-running-shoe.jpg",
+                    "unitunitprice": 4500
+                }
+            ]
+        },{
+            "name": "Men",
+            "products": [
+                {
+                    "name": "Nike Lunar Skyelux",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/855808_001_A_PREM/lunar-skyelux-mens-running-shoe.jpg",
+                    "unitunitprice": 2500
+                },
+                {
+                    "name": "PG1 Men's Basketball Shoe",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/878627_008_G_PREM/pg1-basketball-shoe.jpg",
+                    "unitunitprice": 1999
+                },
+                {
+                    "name": "Nike Men (MIDNIGHT NAVY/WHITE)",
+                    "image": "http://th-live-03.slatic.net/p/7/nike-men-gts16-txt-840300410-midnightnavywhite-1497868991-64141851-afa234657f2df5d5dd496f4af56405d2-catalog_233.jpg",
+                    "unitunitprice": 2399
+                },
+                {
+                    "name": "Men's Shoes, Sneakers",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/880842_500_A_PREM/free-rn-commuter-2017-womens-running-shoe.jpg",
+                    "unitunitprice": 4500
+                }
+            ]
+        },{
+            "name": "Popular",
+            "products": [
+                {
+                    "name": "Nike Lunar Skyelux",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/855808_001_A_PREM/lunar-skyelux-mens-running-shoe.jpg",
+                    "unitunitprice": 2500
+                },
+                {
+                    "name": "Women's Shoes, Sneakers",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/880842_500_A_PREM/free-rn-commuter-2017-womens-running-shoe.jpg",
+                    "unitunitprice": 4500
+                }
+            ]
+        },{
+            "name": "Promotion",
+            "products": [
+                {
+                    "name": "Nike Lunar Skyelux",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/855808_001_A_PREM/lunar-skyelux-mens-running-shoe.jpg",
+                    "unitunitprice": 2500
+                },
+                {
+                    "name": "PG1 Men's Basketball Shoe",
+                    "image": "https://images.nike.com/is/image/DotCom/PDP_HERO_ZOOM/878627_008_G_PREM/pg1-basketball-shoe.jpg",
+                    "unitunitprice": 1999
+                },
+                {
+                    "name": "Nike Men (MIDNIGHT NAVY/WHITE)",
+                    "image": "http://th-live-03.slatic.net/p/7/nike-men-gts16-txt-840300410-midnightnavywhite-1497868991-64141851-afa234657f2df5d5dd496f4af56405d2-catalog_233.jpg",
+                    "unitunitprice": 2399
+                }
+            ]
+        }
+    ]
+}

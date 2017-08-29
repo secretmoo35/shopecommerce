@@ -1,0 +1,28 @@
+.scrollbars {
+    height: 100% !important;
+    ion-toolbar.scrollable-segments {
+        ion-segment {
+            display: block;
+            overflow-x: scroll;
+            white-space: nowrap;
+            ion-segment-button.segment-button {
+                display: inline-block;
+                min-width: 100px;
+                width: auto;
+            }
+        }
+    }
+    .segment-button {
+        border: 0 !important;
+    }
+    .segment-md .segment-button.segment-activated {
+        border-color: #387ef5;
+        opacity: 1;
+        border-bottom: 3px solid !important;
+    }
+    .slide-zoom {
+        position: absolute !important;
+        top: 0 !important;
+        height:100%;
+    }
+}

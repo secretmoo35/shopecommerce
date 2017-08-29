@@ -1,0 +1,59 @@
+<!--
+  Generated template for the HistoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>History</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div>
+    <ion-segment [(ngModel)]="historyTab">
+      <ion-segment-button value="receive">
+        Receive
+      </ion-segment-button>
+      <ion-segment-button value="unpaid">
+        Unpaid
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  <div [ngSwitch]="historyTab">
+    <div *ngSwitchCase="'receive'">
+      <history-list-view [items]="history.receive"></history-list-view>
+    </div>
+    <div *ngSwitchCase="'unpaid'">
+      <history-list-view [items]="history.unpaid"></history-list-view>
+    </div>
+  </div>
+
+</ion-content>
+
+
+
+<ion-footer>
+  <ion-grid>
+    <ion-row *ngIf="historyTab === 'receive'">
+      <ion-col col-6>
+        <h3>Receive total</h3>
+      </ion-col>
+      <ion-col text-right col-6>
+        <h3>{{history.receiveamount | number}} ฿</h3>
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="historyTab === 'unpaid'">
+      <ion-col col-6>
+      <h3>Unpaid total</h3>
+      </ion-col>
+      <ion-col text-right col-6>
+        <h3>{{history.unpaidamount | number}} ฿</h3>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>
